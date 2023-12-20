@@ -13,5 +13,3 @@ https://arxiv.org/abs/1706.03762
 https://nlp.seas.harvard.edu/2018/04/03/attention.html
 5.	Pytorch documentation: 
 https://pytorch.org/docs/stable/index.html
-![image](https://github.com/GuilinXie/nanoGPT/assets/43485626/4cd31858-25a8-4510-aa2c-f066af4bfc54)
-
