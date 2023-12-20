@@ -8,7 +8,7 @@ The task of the model is to generate Shakespeare-like text.
 This nanoGPT model's architecture was highlighted in red boxes from the original Transformer paper:  
 ![image](https://github.com/GuilinXie/nanoGPT/assets/43485626/275004ee-7a37-4fd2-830b-01937f08f461)
 
-## model's hyperparameters
+## model's hyperparameters  
 | N  | $`d_model`$ | d_ff | h | d_k | d_v | P_drop | eps_ls | train steps | params (M) |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
