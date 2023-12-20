@@ -1,8 +1,9 @@
 # nanoGPT
 This is a decoder-only transformer model.  
-The model has 20k parameters.  
-The dataset contains about 1M tokens.  
-The model was trained on a character level, and it has 65 characters as vocabulary.  
+The dataset is a 1 MB text file, which is all Shakespeare's work.  
+The model has 20k parameters and was trained on a character level, with 65 different characters as the vocabulary.   
+The task of the model is to generate Shakespeare-like text infinitely.
+
 
 
 
