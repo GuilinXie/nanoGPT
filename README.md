@@ -1,5 +1,8 @@
 # nanoGPT
 This is a decoder-only transformer model.
+The model has 20k parameters.
+The dataset contains about 1M tokens.
+The model was trained on a character level, and it has 65 characters as vocabulary.
 
 
 
