@@ -30,7 +30,7 @@ _Explanation of the hyperparameters_
 The generation result looks roughly like Shakespeare's style, but the sentences and words don't make much sense.  
 One problem might be that the dataset is too small.    
 Another problem can be that the model was just trained on character level and a sub-word level might be better.  
-Finally, we can also tune the model's hyperparameters to make a deeper network with more hidden units to increase the model's expression power.  
+Finally, we can further tune the hyperparameters for a deeper network with more hidden units to increase the model's expression power.  
 
 # Reference:
 1.	Andrej Karpathy: Let’s build GPT: from scratch, in code, spelled out.  https://www.youtube.com/watch?v=kCc8FmEb1nY&t=878s
