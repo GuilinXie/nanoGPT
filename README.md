@@ -5,14 +5,13 @@ The model was trained on a character level.
 The task of the model is to generate Shakespeare-like text.
 
 ## model architecture  
-This nanoGPT model's architecture was highlighted in red boxes from the original Transformer paper:  
+This model implemented the following architecture highlighted in red boxes from the original Transformer paper:  
 ![image](https://github.com/GuilinXie/nanoGPT/assets/43485626/275004ee-7a37-4fd2-830b-01937f08f461)
 
 ## model's hyperparameters  
-| N  | $`d_model`$ | d_ff | h | d_k | d_v | P_drop | eps_ls | train steps | params (M) |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| N  | $`d_{model}`$ | $`d_{ff}`$ | h | $`d_k`$ | $`d_v`$ | $`P_{drop}`$ | train steps | params (M) |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 
 # Reference:
 1.	Andrej Karpathy: Let’s build GPT: from scratch, in code, spelled out. https://www.youtube.com/watch?v=kCc8FmEb1nY&t=878s
