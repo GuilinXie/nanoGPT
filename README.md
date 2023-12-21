@@ -18,16 +18,16 @@ _Explanation of the hyperparameters_
 |---------------|--------|
 |N| _number of blocks stacking together as the decoder_  
 |$`d_{model}`$| _embedding size_  
-|$`d_{ff}`$| _feed forward's hidden size_  
+|$`d_{ff}`$| _feed forward layer's hidden size_  
 |h| _number of heads_  
 |$`d_k`$| _dimension of keys_  
 |$`d_v`$| _dimension of values_  
-|$`P_{drop}`$| _dropout rate_  
-|train steps| _steps trained for the model_  
+|$`P_{drop}`$| _drop out rate_  
+|train steps| _number of steps trained for the model_  
 |params| _number of the models' parameters_  
 
 ## Limitation
-The generation result looks roughly like Shakespeare's, but the sentences and words don't make much sense.  
+The generation result looks roughly like Shakespeare's style, but the sentences and words don't make much sense.  
 One problem might be that the dataset is too small, so we can scale up the dataset.  
 Another problem can be that the model was trained on character-level vocabulary, and we may do sub-word level for improvement.  
 Finally, we can also tune the model's hyperparameters to make a deeper network with more hidden units to increase the expression power.  
