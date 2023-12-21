@@ -13,7 +13,7 @@ This model implemented the following architecture highlighted in red boxes from 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |  
 | 6  | 64  | 256  | 6  | 8  | 8  | 0.2  | 5000  | Content Cell  |  
 
-Notes: explanation of the hyperparameters
+_Explanation of the hyperparameters_
 |hyperparameters|meaning|
 |---------------|--------|
 |N| _number of blocks stacking together as the decoder_  
