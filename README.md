@@ -12,16 +12,17 @@ This model implemented the following architecture highlighted in red boxes from 
 | N  | $`d_{model}`$ | $`d_{ff}`$ | h | $`d_k`$ | $`d_v`$ | $`P_{drop}`$ | train steps | params |  
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |  
 | 6  | 64  | 256  | 6  | 8  | 8  | 0.2  | 5000  | Content Cell  |  
+
 Notes:
-N: number of blocks stacking together as the decoder
-$`d_{model}`$: embedding size
-$`d_{ff}`$: feed forward's hidden size
-h: number of heads
-$`d_k`$: dimension of keys
-$`d_v`$: dimension of values
-$`P_{drop}`$: dropout rate
-train steps: steps trained for the model
-params: number of the models' parameters
+N: _number of blocks stacking together as the decoder_
+$`d_{model}`$: _embedding size_
+$`d_{ff}`$: _feed forward's hidden size_
+h: _number of heads_
+$`d_k`$: _dimension of keys_
+$`d_v`$: _dimension of values_
+$`P_{drop}`$: _dropout rate_
+train steps: _steps trained for the model_
+params: _number of the models' parameters_
 
 ## Limitation
 The generation result looks roughly like Shakespeare's, but the sentences and words don't make much sense.  
