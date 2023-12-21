@@ -1,5 +1,5 @@
 # nanoGPT
-This is a decoder-only transformer model.  
+This is a decoder-only transformer model, following the GPT-2 model's architecture.  
 The dataset is a 1 MB text file, which is all Shakespeare's work.  
 The model was trained on a character level.  
 The task of the model is to generate Shakespeare-like text.
