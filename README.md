@@ -26,7 +26,29 @@ _Explanation of the hyperparameters_
 |train steps| _number of steps trained for the model_  
 |params| _number of the models' parameters_  
 
-## Limitation
+## train & val loss
+![image](https://github.com/GuilinXie/nanoGPT/assets/43485626/3723b08c-f7e7-4111-8ffe-0c61d6412ae0)
+
+## result
+### generated Shakespeare-like text result from the model
+_Bust fatondd manind th h
+Mithon ay ifd,
+And ttsthe use whrreave stil t he? if he.'t of br mays;
+
+ARY t atheathatheet measoy wndive:
+fo sm comerelley t e mort t'd wid yoflls hifly har couconice t, themat ase, t outou, t in tld fods
+G cer hemyord five SAlang krdene d me;
+LLULENGLUSAncthodll bring RWhesouthonee:
+HE:
+Obr kearoftheaind ms.
+Greimbeld bel lp--heashe thay ye t IOROROUSAnth he wimo, w t tige aghee Mag fed pr ad con,
+
+As cesigily,
+
+I he hid thmy winglivercoctofo n m CLMis byo bobeglom.
+Ma_
+
+## limitation
 The generation result looks roughly like Shakespeare's style, but the sentences and words don't make much sense.  
 One problem might be that the dataset is too small.    
 Another problem can be that the model was just trained on character level and a sub-word level might be better.  
