@@ -1,4 +1,4 @@
-## Table of contents
+## Table of Contents
 [Project Overview](#project-overview)  
 [Model Architecture](#model-architecture)  
 [Model's Hyperparameters](#model's-hyperparameters)  
@@ -8,7 +8,7 @@
 [Reference](#reference)  
 
 ## Project Overview
-This nanoGPT model is a decoder-only transformer model, following the GPT-2 model's architecture.  
+This nanoGPT is a decoder-only transformer model, following the GPT-2 model's architecture.  
 The dataset is a 1 MB text file, which is all Shakespeare's work.  
 The model was trained on a character level.  
 The task of the model is to generate Shakespeare-like text.
