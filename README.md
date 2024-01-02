@@ -1,7 +1,13 @@
-[nanoGPT model description](#nanogpt-model-description)
+[project overview](#project-overview)
+[model architecture](#model-architecture)
+[model's hyperparameters](#model's-hyperparameters)
+[train and val loss][#train-and-val-loss]
+[result](#result)
+[limitation](#limitation)
+[reference](#reference)
 
-# nanoGPT model description
-This is a decoder-only transformer model, following the GPT-2 model's architecture.  
+## project overview
+This nanoGPT model is a decoder-only transformer model, following the GPT-2 model's architecture.  
 The dataset is a 1 MB text file, which is all Shakespeare's work.  
 The model was trained on a character level.  
 The task of the model is to generate Shakespeare-like text.
@@ -13,7 +19,7 @@ This model implemented the following architecture highlighted in red boxes from 
 ## model's hyperparameters  
 | N  | $`d_{model}`$ | $`d_{ff}`$ | h | $`d_k`$ | $`d_v`$ | $`P_{drop}`$ | train steps | params |  
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |  
-| 6  | 64  | 256  | 6  | 8  | 8  | 0.2  | 5000  | Content Cell  |  
+| 8  | 64  | 256  | 6  | 8  | 8  | 0.2  | 5K  | 312K  |  
 
 _Explanation of the hyperparameters_
 |hyperparameters|meaning|
@@ -28,7 +34,7 @@ _Explanation of the hyperparameters_
 |train steps| _number of steps trained for the model_  
 |params| _number of the models' parameters_  
 
-## train & val loss
+## train and val loss
 ![image](https://github.com/GuilinXie/nanoGPT/assets/43485626/3723b08c-f7e7-4111-8ffe-0c61d6412ae0)
 
 ## result
