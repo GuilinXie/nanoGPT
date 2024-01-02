@@ -1,7 +1,8 @@
+## Table of contents
 [project overview](#project-overview)  
 [model architecture](#model-architecture)  
 [model's hyperparameters](#model's-hyperparameters)  
-[train and val loss][#train-and-val-loss]  
+[train and val loss](#train-and-val-loss) 
 [result](#result)  
 [limitation](#limitation)  
 [reference](#reference)  
