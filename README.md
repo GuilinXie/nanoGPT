@@ -31,22 +31,22 @@ _Explanation of the hyperparameters_
 
 ## result
 ### generated Shakespeare-like text result from the model
-_Bust fatondd manind th h
-Mithon ay ifd,
-And ttsthe use whrreave stil t he? if he.'t of br mays;
-
-ARY t atheathatheet measoy wndive:
-fo sm comerelley t e mort t'd wid yoflls hifly har couconice t, themat ase, t outou, t in tld fods
-G cer hemyord five SAlang krdene d me;
-LLULENGLUSAncthodll bring RWhesouthonee:
-HE:
-Obr kearoftheaind ms.
-Greimbeld bel lp--heashe thay ye t IOROROUSAnth he wimo, w t tige aghee Mag fed pr ad con,
-
-As cesigily,
-
-I he hid thmy winglivercoctofo n m CLMis byo bobeglom.
-Ma_
+_Bust fatondd manind th h_  
+_Mithon ay ifd,_  
+_And ttsthe use whrreave stil t he? if he.'t of br mays;_  
+  
+_ARY t atheathatheet measoy wndive:_  
+_fo sm comerelley t e mort t'd wid yoflls hifly har couconice t, themat ase, t outou, t in tld fods_  
+_G cer hemyord five SAlang krdene d me;_  
+_LLULENGLUSAncthodll bring RWhesouthonee:_  
+_HE:_  
+_Obr kearoftheaind ms._  
+_Greimbeld bel lp--heashe thay ye t IOROROUSAnth he wimo, w t tige aghee Mag fed pr ad con,_  
+  
+_As cesigily,_  
+  
+_I he hid thmy winglivercoctofo n m CLMis byo bobeglom._  
+_Ma_  
 
 ## limitation
 The generation result looks roughly like Shakespeare's style, but the sentences and words don't make much sense.  
