@@ -2,7 +2,7 @@
 [Project Overview](#project-overview)  
 [Model Architecture](#model-architecture)  
 [Model's Hyperparameters](#model's-hyperparameters)  
-[Train and Validation loss](#train-and-validation-loss) 
+[Train and Validation Loss](#train-and-validation-loss)  
 [Result](#result)  
 [Limitation](#limitation)  
 [Reference](#reference)  
