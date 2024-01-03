@@ -58,7 +58,7 @@ _Explanation of the hyperparameters_
 >_Ma_  
 
 ## Limitation
-The generation result looks roughly like Shakespeare's style, but the sentences and words don't make much sense.  
+The generation result looks roughly like Shakespeare's style, but the sentences and words don't are not good enough.  
 One problem might be that the dataset is too small.    
 Another problem can be that the model was just trained on character level and a sub-word level might be better.  
 Finally, we can further tune the hyperparameters for a deeper network with more hidden units to increase the model's expression power.  
